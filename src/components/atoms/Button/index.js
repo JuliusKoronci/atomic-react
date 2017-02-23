@@ -1,19 +1,19 @@
-import React, { PropTypes } from 'react'
-import styled, { css } from 'styled-components'
-import { Link } from 'react-router'
-import { font, palette } from 'styled-theme'
-import { ifProp } from 'styled-tools'
+import React, { PropTypes } from 'react';
+import styled, { css } from 'styled-components';
+import { Link } from 'react-router';
+import { font, palette } from 'styled-theme';
+import { ifProp } from 'styled-tools';
 
-const fontSize = ({ height }) => `${height / 40}rem`
+const fontSize = ({ height }) => `${height / 40}rem`;
 
 const backgroundColor = ({ transparent, disabled }) =>
-	transparent ? 'transparent' : palette(disabled ? 2 : 1)
+	transparent ? 'transparent' : palette(disabled ? 2 : 1);
 
 const foregroundColor = ({ transparent, disabled }) =>
-	transparent ? palette(disabled ? 2 : 1) : palette('grayscale', 0, true)
+	transparent ? palette(disabled ? 2 : 1) : palette('grayscale', 0, true);
 
-const hoverBackgroundColor = ({ disabled, transparent }) => !disabled && !transparent && palette(0)
-const hoverForegroundColor = ({ disabled, transparent }) => !disabled && transparent && palette(0)
+const hoverBackgroundColor = ({ disabled, transparent }) => !disabled && !transparent && palette(0);
+const hoverForegroundColor = ({ disabled, transparent }) => !disabled && transparent && palette(0);
 
 const styles = css(`
   display: inline-flex;
@@ -75,6 +75,6 @@ Button.defaultProps = {
 	palette: 'primary',
 	type: 'button',
 	height: 40,
-}
+};
 
-export default Button;
+export default Button

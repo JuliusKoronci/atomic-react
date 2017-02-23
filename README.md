@@ -1,18 +1,3 @@
-<p align="center">
-  <img alt="arclogo" src="https://cloud.githubusercontent.com/assets/3068563/23199029/55e9d55a-f8aa-11e6-91a2-74b82db3813c.png"><br><br>
-  <a href="https://github.com/diegohaz/arc/releases/latest"><img src="https://github-release-version.herokuapp.com/github/diegohaz/arc/release.svg?style=flat-square" alt="Latest release" /></a>
-  <a href="https://travis-ci.org/diegohaz/arc"><img src="https://img.shields.io/travis/diegohaz/arc/redux.svg?style=flat-square" alt="Build Status" /></a>
-  <a href="https://codecov.io/gh/diegohaz/arc/branch/redux"><img src="https://img.shields.io/codecov/c/github/diegohaz/arc/redux.svg?style=flat-square" alt="Coverage Status" /></a>
-  <a href="https://gitter.im/diegohaz/arc"><img src="https://img.shields.io/badge/gitter-join%20chat-1dce73.svg?style=flat-square" alt="Gitter chat" /></a>
-</p>
-
-## Redux
-
-This branch adds [redux](https://github.com/reactjs/redux), [redux-saga](https://github.com/yelouafi/redux-saga) and [redux-form](https://github.com/erikras/redux-form) to the [master](https://github.com/diegohaz/arc) branch.
-
-See the [demo](https://arc.js.org).
-
-## Download
 
 Just clone the repository and remove the `.git` folder:
 
@@ -206,32 +191,7 @@ PRs are very appreciated. For bugs/features consider creating an issue before se
 - I'm not a native english speaker. If you find any typo or some text that could be written in a better way, please send a PR, even if it is only a punctuation;
 - If you forked or created another boilerplate based on this one with another features (using [`css-modules`](https://github.com/css-modules/css-modules) instead of [`styled-components`](https://github.com/styled-components/styled-components), for example), add that to the [Forks section](#forks) with the following pattern:
   - [arc-css-modules](https://github.com/username/arc-css-modules) - A short description
-  
-## Built with ARc
 
-*Built something cool with ARc? Send a PR adding it to this list:*
-
-- [replace-this](https://github.com/username/replace-this) - A short description
-
-## Contributors
-
-Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
-
-<!-- Contributors START
-Prabhat_Sharma prabhatsharma https://github.com/prabhatsharma code
-Sven_Schmidt 0xsven https://github.com/0xsven bug code
-Sebastian ssmolinski9 https://github.com/ssmolinski9 tests
-Steven_Haddix steven-haddix https://github.com/steven-haddix code
-Ruslan_Kyba kybarg https://github.com/kybarg bug code
-Abhishek_Shende osdevisnot https://github.com/osdevisnot code
-Contributors END -->
-<!-- Contributors table START -->
-| [![Prabhat Sharma](https://avatars.githubusercontent.com/prabhatsharma?s=100)<br /><sub>Prabhat Sharma</sub>](https://github.com/prabhatsharma)<br />[💻](https://github.com/diegohaz/arc/commits?author=prabhatsharma) | [![Sven Schmidt](https://avatars.githubusercontent.com/0xsven?s=100)<br /><sub>Sven Schmidt</sub>](https://github.com/0xsven)<br />[🐛](https://github.com/diegohaz/arc/issues?q=author%3A0xsven) [💻](https://github.com/diegohaz/arc/commits?author=0xsven) | [![Sebastian](https://avatars.githubusercontent.com/ssmolinski9?s=100)<br /><sub>Sebastian</sub>](https://github.com/ssmolinski9)<br />[⚠️](https://github.com/diegohaz/arc/commits?author=ssmolinski9) | [![Steven Haddix](https://avatars.githubusercontent.com/steven-haddix?s=100)<br /><sub>Steven Haddix</sub>](https://github.com/steven-haddix)<br />[💻](https://github.com/diegohaz/arc/commits?author=steven-haddix) | [![Ruslan Kyba](https://avatars.githubusercontent.com/kybarg?s=100)<br /><sub>Ruslan Kyba</sub>](https://github.com/kybarg)<br />[🐛](https://github.com/diegohaz/arc/issues?q=author%3Akybarg) [💻](https://github.com/diegohaz/arc/commits?author=kybarg) | [![Abhishek Shende](https://avatars.githubusercontent.com/osdevisnot?s=100)<br /><sub>Abhishek Shende</sub>](https://github.com/osdevisnot)<br />[💻](https://github.com/diegohaz/arc/commits?author=osdevisnot) |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-<!-- Contributors table END -->
-
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification.
-Contributions of any kind welcome!
 
 ## License
 

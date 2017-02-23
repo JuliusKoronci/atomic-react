@@ -1,11 +1,11 @@
-import React from 'react'
-import { storiesOf } from '@kadira/storybook'
-import Atom from '.'
+import React from 'react';
+import { storiesOf } from '@kadira/storybook';
+import Atom from './index';
 
 storiesOf('Atom', module)
-  .add('default', () => (
-    <Atom>Hello</Atom>
-  ))
-  .add('reverse', () => (
-    <Atom reverse>Hello</Atom>
-  ))
+	.add('default', () => (
+		<Atom>Hello</Atom>
+	))
+	.add('reverse', () => (
+		<Atom reverse>Hello</Atom>
+	));
