@@ -1,10 +1,13 @@
 import React from 'react';
+import { Atom, Button } from 'components';
 
-import { PageTemplate } from 'components';
-
-const HomePage = () => {
+const HomePage = (props) => {
+	console.log(props);
 	return (
-		<PageTemplate>Hello World</PageTemplate>
+		<div>
+			<Atom>Hello</Atom>
+			<Button>Hello</Button>
+		</div>
 	);
 };
 

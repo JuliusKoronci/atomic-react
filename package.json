@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node server",
     "test": "jest",
+    "flow": "flow",
     "coverage": "npm test -- --coverage",
     "postcoverage": "opn coverage/lcov-report/index.html",
     "lint": "eslint src src-clean .storybook",
@@ -66,10 +67,12 @@
   "dependencies": {
     "axios": "^0.15.3",
     "babel-polyfill": "^6.20.0",
+    "danger": "^0.11.5",
     "eslint-plugin-babel": "^4.0.1",
     "history": "3.0.0",
     "lodash": "^4.17.4",
     "normalizr": "^3.0.1",
+    "rambda": "^0.5.2",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-hot-loader": "^3.0.0-beta.6",

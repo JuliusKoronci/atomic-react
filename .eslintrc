@@ -119,7 +119,6 @@
     "no-cond-assign": "error",
     "no-extra-semi": "error",
     "no-extra-boolean-cast": "error",
-    "no-trailing-spaces": "error",
     "no-unneeded-ternary": "error",
     "no-unreachable": "error",
     "no-var": "error",

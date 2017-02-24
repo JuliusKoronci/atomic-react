@@ -1,17 +1,13 @@
+// @flow
 import React, { PropTypes } from 'react';
-import { injectGlobal } from 'styled-components';
+import { ThemeProvider } from 'styled-components';
+import theme from './themes/default';
 
-injectGlobal(`
-  body {
-    margin: 0;
-  }
-`);
-
-const App = ({ children }) => {
+const App = ({ children }: {children: Object}) => {
 	return (
-		<div>
-			{children}
-		</div>
+		<ThemeProvider theme={theme}>
+			{React.cloneElement(children, {theme})}
+		</ThemeProvider>
 	);
 };
 
