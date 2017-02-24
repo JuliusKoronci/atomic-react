@@ -14,9 +14,19 @@ export const color = {
 	base: '#565656',
 	border: 'black',
 	green: 'green',
+	red: 'red',
 };
+
+export const padding = {
+	base: '5px',
+};
+
+export const border = {
+	base: '1px',
+};
+
 export const background = {
-	base: 'whitesmoke',
+	base: '',
 	border: 'black',
 };
 
@@ -28,10 +38,14 @@ export const fonts = {
 	quote: 'Georgia, serif',
 };
 
-export default
-{
-	palette,
-	fonts,
-	background,
-	reversePalette: reverse,
-};
+
+const theme =
+	{
+		palette,
+		fonts,
+		background,
+		padding,
+		reversePalette: reverse,
+	};
+
+export default theme;

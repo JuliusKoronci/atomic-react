@@ -6,6 +6,9 @@ storiesOf('Atom', module)
 	.add('default', () => (
 		<Atom>Hello</Atom>
 	))
-	.add('reverse', () => (
-		<Atom reverse>Hello</Atom>
+	.add('with color', () => (
+		<Atom color="green">Hello</Atom>
+	))
+	.add('with background and color', () => (
+		<Atom background="green" color="white">Hello</Atom>
 	));

@@ -1,19 +1,13 @@
 import styled from 'styled-components';
+import { textElement, textElementPropTypes, padding } from 'components/themes/definitions';
 
-const Button = styled.button`${props => console.log(props)}
-  /* Color the background and border with theme.main */
-  background: ${props => props.theme.main};
-  border: 2px solid ${props => props.theme.main};
-
-  /* …more styles here… */
+const Button = styled.button`
+	${textElement}
+	${padding}
 `;
 
-// Set the default theme, in our case main will be
-// palevioletred if no other theme is specified
-Button.defaultProps = {
-	theme: {
-		main: 'palevioletred',
-	},
+Button.propTypes = {
+	...textElementPropTypes,
 };
 
 export default Button;

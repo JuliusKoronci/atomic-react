@@ -1,12 +1,11 @@
 import React from 'react';
-import { Atom, Button } from 'components';
+import { Atom, WrappedParagraph } from 'components';
 
-const HomePage = (props) => {
-	console.log(props);
+const HomePage = () => {
 	return (
 		<div>
 			<Atom>Hello</Atom>
-			<Button>Hello</Button>
+			<WrappedParagraph>Test som text in p</WrappedParagraph>
 		</div>
 	);
 };
